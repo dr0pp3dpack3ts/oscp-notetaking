@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ### Basic if statement (if this is true then do this and if not true dont do that)
-if [ "$#" -ne 2 ]; then ### if there is no input then print in line 2...
-	echo "usage: $0 <input.md> <output.pdf>" ### prints out input for md filename and pdf filename.
+if [ "$#" -ne 2 ]; then ### if any variable doesn't equal 2...
+	echo "usage: $0 <input.md> <output.pdf>" ### Do this....
 	exit
 fi 
 
